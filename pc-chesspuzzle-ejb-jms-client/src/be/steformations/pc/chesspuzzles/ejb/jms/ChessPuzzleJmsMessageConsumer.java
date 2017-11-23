@@ -3,7 +3,7 @@ package be.steformations.pc.chesspuzzles.ejb.jms;
 import be.steformations.pc.chesspuzzles.dto.ChessPuzzleDto;
 
 public class ChessPuzzleJmsMessageConsumer {
-
+     
 	public static void main(String[] args) throws Exception {
 		java.util.Properties properties = new java.util.Properties();
 		properties.put("java.naming.provider.url", "localhost:3700");
